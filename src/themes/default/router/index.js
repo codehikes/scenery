@@ -1,13 +1,13 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Scenery from '@/components/Scenery';
+import Scenery from '$theme/default/components/Scenery';
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/app',
+      path: '/',
       name: 'Scenery',
       component: Scenery,
     },
