@@ -2,6 +2,7 @@
 const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
+const env = require('../config/.env')
 const vueLoaderConfig = require('./vue-loader.conf')
 
 function resolve (dir) {
@@ -36,7 +37,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      '$theme': resolve('src/themes'),
+      '$theme': resolve('src/themes/' + env.APP_THEME),
     }
   },
   module: {
