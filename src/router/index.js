@@ -7,7 +7,7 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/app',
       name: 'Scenery',
       component: Scenery,
     },

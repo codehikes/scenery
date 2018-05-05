@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Scenery',
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
