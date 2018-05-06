@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Landing page for your portfolio",
   "author": "rori.development@gmail.com",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
