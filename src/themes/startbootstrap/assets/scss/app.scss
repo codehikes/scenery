@@ -1,2 +1,6 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "variables.scss";
+@import "mixins.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+$fa-font-path : '../../node_modules/font-awesome/fonts';
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
 @import "agency.scss";

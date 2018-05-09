@@ -5,6 +5,8 @@ import Scenery from '$theme/components/Scenery';
 Vue.use(Router);
 
 export default new Router({
+  hashbang: false,
+  mode: 'history',
   routes: [
     {
       path: '/',

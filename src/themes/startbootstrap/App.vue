@@ -22,4 +22,4 @@ export default {
 };
 </script>
 
-<style src="$theme/assets/css/agency.min.css"></style>
+<style lang="scss" src="$theme/assets/scss/app.scss"></style>
