@@ -1,5 +1,8 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+/* eslint-disable no-unused-vars */
+import jquery from 'jquery';
+/* eslint-enable no-unused-vars */
 import Vue from 'vue';
 import App from '$theme/App';
 import router from '$theme/router';
