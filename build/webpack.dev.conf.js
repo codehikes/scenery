@@ -10,7 +10,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 const env = require('../config/.env')
-const pathTheme = './src/themes/' + env.APP_THEME + '/'
+const pathTheme = './src/themes/' + env.sceneryTheme + '/'
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
@@ -47,7 +47,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': merge(require('../config/dev.env'), require('../config/.env'))
+      'process.env': require('../config/dev.env')
     }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(), // HMR shows correct file names in console on update.
@@ -83,7 +83,7 @@ module.exports = new Promise((resolve, reject) => {
       // Add FriendlyErrorsPlugin
       devWebpackConfig.plugins.push(new FriendlyErrorsPlugin({
         compilationSuccessInfo: {
-          messages: [`Your application is running here: http://${devWebpackConfig.devServer.host}:${port} with theme ${env.APP_THEME}`],
+          messages: [`Your application is running here: http://${devWebpackConfig.devServer.host}:${port} with theme ${env.sceneryTheme}`],
         },
         onErrors: config.dev.notifyOnErrors
         ? utils.createNotifierCallback()

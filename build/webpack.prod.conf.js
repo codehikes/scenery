@@ -11,7 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const env = require('../config/.env')
-const pathTheme = './src/themes/' + env.APP_THEME + '/'
+const pathTheme = './src/themes/' + env.sceneryTheme + '/'
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -34,7 +34,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
-      'process.env': merge(env, require('../config.env'))
+      'process.env': env
     }),
     new UglifyJsPlugin({
       uglifyOptions: {
