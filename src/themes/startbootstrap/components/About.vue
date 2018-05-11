@@ -5,7 +5,9 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">
+            Lorem ipsum dolor sit amet consectetur.
+          </h3>
         </div>
       </div>
       <div class="row">
@@ -21,7 +23,11 @@
                   <h4 class="subheading">Our Humble Beginnings</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                  </p>
                 </div>
               </div>
             </li>
@@ -35,7 +41,11 @@
                   <h4 class="subheading">An Agency is Born</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                  </p>
                 </div>
               </div>
             </li>
@@ -49,7 +59,11 @@
                   <h4 class="subheading">Transition to Full Service</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                  </p>
                 </div>
               </div>
             </li>
@@ -63,7 +77,11 @@
                   <h4 class="subheading">Phase Two Expansion</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                  </p>
                 </div>
               </div>
             </li>
@@ -83,6 +101,6 @@
 
 <script>
 export default {
-  name: 'StartBootstrapAbout'
-}
+  name: 'StartBootstrapAbout',
+};
 </script>
