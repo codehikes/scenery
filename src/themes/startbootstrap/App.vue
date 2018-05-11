@@ -1,7 +1,7 @@
 <template>
   <div id="startbootstrap">
     <startbootstrap-navbar></startbootstrap-navbar>
-    <startbootstrap-header></startbootstrap-header>
+    <startbootstrap-home></startbootstrap-home>
     <router-view/>
     <startbootstrap-footer></startbootstrap-footer>
   </div>
@@ -9,14 +9,14 @@
 
 <script>
 import StartbootstrapNavbar from '$theme/components/Layout/Navbar';
-import StartbootstrapHeader from '$theme/components/Layout/Header';
+import StartbootstrapHome from '$theme/components/Home';
 import StartbootstrapFooter from '$theme/components/Layout/Footer';
 
 export default {
   name: 'App',
   components: {
     StartbootstrapNavbar,
-    StartbootstrapHeader,
+    StartbootstrapHome,
     StartbootstrapFooter,
   },
 };

@@ -17,6 +17,6 @@
 
 <script>
 export default {
-  name: 'StartBootstrapHeader',
+  name: 'StartBootstrapHome',
 };
 </script>
