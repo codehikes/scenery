@@ -19,4 +19,7 @@ module.exports = {
       linkedin: '#'
     }
   },
+  custom: {
+    // your custom config
+  },
 };
