@@ -1,13 +1,13 @@
 module.exports = [{
   name: 'Services',
   icon: '',
-  link: '#',
+  link: '#services',
 }, {
   name: 'Portfolio',
   icon: '',
-  link: '#',
+  link: '#portfolio',
 }, {
   name: 'About',
   icon: '',
-  link: '#',
+  link: '#about',
 }];
