@@ -17,7 +17,8 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item" v-for="menu in $scenery.menu" :key="menu.id">
-            <a class="nav-link" href="#" v-scroll-to="{ el: menu.link, onDone: onDone}">
+            <a class="nav-link" href="#"
+              v-scroll-to="{ el: menu.link, onDone: onDone, onStart: onStart }">
               {{ menu.name }}
             </a>
           </li>
@@ -33,6 +34,9 @@ import $ from 'jquery';
 export default {
   name: 'StartBootstrapNavbar',
   methods: {
+    onStart() {
+      $(this.$el).addClass('navbar-shrink');
+    },
     onDone() {
       $(this.$el).addClass('navbar-shrink');
     },
