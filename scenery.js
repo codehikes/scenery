@@ -13,5 +13,10 @@ module.exports = {
     menu: menu,
     services: services,
     portfolio: portfolios,
-  }
+    socialMedia: {
+      facebook: '#',
+      twitter: '#',
+      linkedin: '#'
+    }
+  },
 };
