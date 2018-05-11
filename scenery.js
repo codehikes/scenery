@@ -5,7 +5,7 @@ const portfolios = require('./src/portfolios')
 module.exports = {
   theme: 'startbootstrap',
   meta: {
-    name: 'Scenery App',
+    name: 'Scenery',
     description: 'Simple Landing page for your portfolio',
     address: 'Jakarta',
     address2: 'Indonesia',
