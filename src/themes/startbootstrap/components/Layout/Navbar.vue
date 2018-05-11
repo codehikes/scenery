@@ -2,7 +2,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ $scenery.name }}</a>
+      <a class="navbar-brand js-scroll-trigger"
+        href="#" v-scroll-to="'#page-top'">
+          {{ $scenery.name }}
+      </a>
       <button class="navbar-toggler navbar-toggler-right"
         type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -14,7 +17,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item" v-for="menu in $scenery.menu" :key="menu.id">
-            <a class="nav-link js-scroll-trigger" :href="menu.link">{{ menu.name }}</a>
+            <a class="nav-link" href="#" v-scroll-to="{ el: menu.link, onDone: onDone}">
+              {{ menu.name }}
+            </a>
           </li>
         </ul>
       </div>
@@ -23,7 +28,14 @@
 </template>
 
 <script>
+import $ from 'jquery';
+
 export default {
   name: 'StartBootstrapNavbar',
+  methods: {
+    onDone() {
+      $(this.$el).addClass('navbar-shrink');
+    },
+  },
 };
 </script>
