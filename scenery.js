@@ -1,10 +1,10 @@
-const menu = require('./menu')
-const services = require('./services')
-const portfolios = require('./portfolios')
+const menu = require('./src/menu')
+const services = require('./src/services')
+const portfolios = require('./src/portfolios')
 
 module.exports = {
-  scenery: {
-    theme: 'startbootstrap',
+  theme: 'startbootstrap',
+  meta: {
     name: 'Scenery App',
     description: 'Simple Landing page for your portfolio',
     address: 'Jakarta',

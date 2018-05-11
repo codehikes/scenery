@@ -10,8 +10,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-const env = require('../config/.env')
-const pathTheme = './src/themes/' + env.scenery.theme + '/'
+const scenery = require('../scenery')
+const pathTheme = './src/themes/' + scenery.theme + '/'
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')

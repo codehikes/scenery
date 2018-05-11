@@ -3,9 +3,9 @@ import Vue from 'vue';
 import App from '$theme/App';
 import router from '$theme/router';
 import Scenery from './lib';
-import ConfigTheme from './../config/.env';
+import SceneryConfig from './../scenery';
 
-Vue.use(Scenery, ConfigTheme);
+Vue.use(Scenery, SceneryConfig);
 
 Vue.config.productionTip = false;
 
