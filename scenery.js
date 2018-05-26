@@ -1,6 +1,6 @@
+'use strict'
 const menu = require('./src/menu')
-const services = require('./src/services')
-const portfolios = require('./src/portfolios')
+const pages = require('./src/pages')
 
 module.exports = {
   theme: 'startbootstrap',
@@ -10,9 +10,9 @@ module.exports = {
     address: 'Jakarta',
     address2: 'Indonesia',
     contact: '021 007007',
+    email: 'rori.development@gmail.com',
     menu: menu,
-    services: services,
-    portfolio: portfolios,
+    pages: pages,
     socialMedia: {
       facebook: '#',
       twitter: '#',
