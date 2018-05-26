@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-4" v-for="service in $scenery.services" :key="service.id">
+        <div class="col-md-4" v-for="service in $scenery.pages.services" :key="service.id">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-stack-1x fa-inverse" :class="service.icon"></i>
