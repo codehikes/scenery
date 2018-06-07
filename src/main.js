@@ -4,7 +4,7 @@ import VueScrollTo from 'vue-scrollto';
 import App from '$theme/App';
 import router from '$theme/router';
 import Scenery from './lib';
-import SceneryOptions from './scenery';
+import SceneryOptions from './../scenery';
 
 Vue.use(Scenery, SceneryOptions);
 Vue.use(VueScrollTo);
