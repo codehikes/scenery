@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import StartbootstrapNavbar from '$theme/components/Layout/Navbar';
-import StartbootstrapHome from '$theme/components/Home';
-import StartbootstrapFooter from '$theme/components/Layout/Footer';
+import StartbootstrapNavbar from '$theme/patterns/Navbar';
+import StartbootstrapHome from '$theme/templates/Home';
+import StartbootstrapFooter from '$theme/patterns/Footer';
 
 export default {
   name: 'App',
