@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import StartbootstrapService from '$theme/components/Service';
-import StartbootstrapPortfolio from '$theme/components/Portfolio';
-import StartbootstrapAbout from '$theme/components/About';
+import StartbootstrapService from '$theme/templates/Service';
+import StartbootstrapPortfolio from '$theme/templates/Portfolio';
+import StartbootstrapAbout from '$theme/templates/About';
 
 export default {
   name: 'Scenery',
