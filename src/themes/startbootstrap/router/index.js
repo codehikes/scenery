@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Scenery from '$theme/components/Scenery';
+import Scenery from '$theme/templates/Scenery';
 
 Vue.use(Router);
 
