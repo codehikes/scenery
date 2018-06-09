@@ -1,6 +1,6 @@
 'use strict'
 const menu = require('./src/scenery/menu')
-const pages = require('./src/pages')
+const pages = require('./src/scenery/pages')
 
 module.exports = {
   theme: 'startbootstrap',
