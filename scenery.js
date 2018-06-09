@@ -1,5 +1,5 @@
 'use strict'
-const menu = require('./src/menu')
+const menu = require('./src/scenery/menu')
 const pages = require('./src/pages')
 
 module.exports = {
