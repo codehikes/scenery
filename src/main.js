@@ -2,7 +2,7 @@ import jquery from 'jquery'; // eslint-disable-line no-unused-vars
 import Vue from 'vue';
 import VueScrollTo from 'vue-scrollto';
 import App from '$theme/App';
-import router from '$theme/router';
+import router from './scenery/router';
 import Scenery from './lib';
 import SceneryOptions from './../scenery';
 
