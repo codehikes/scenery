@@ -1,6 +1,6 @@
 'use strict'
 const menu = require('./src/scenery/menu')
-const pages = require('./src/scenery/pages')
+const templates = require('./src/scenery/templates')
 
 module.exports = {
   theme: 'startbootstrap',
@@ -12,7 +12,7 @@ module.exports = {
     contact: '021 007007',
     email: 'rori.development@gmail.com',
     menu: menu,
-    pages: pages,
+    templates: templates,
     socialMedia: {
       facebook: '#',
       twitter: '#',

@@ -12,16 +12,16 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" :src="$scenery.pages.about.image">
+                <img class="rounded-circle img-fluid" :src="$scenery.templates.about.image">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>{{ $scenery.pages.about.title }}</h4>
-                  <h4 class="subheading">{{ $scenery.pages.about.subtitle }}</h4>
+                  <h4>{{ $scenery.templates.about.title }}</h4>
+                  <h4 class="subheading">{{ $scenery.templates.about.subtitle }}</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">
-                    {{ $scenery.pages.about.description }}
+                    {{ $scenery.templates.about.description }}
                   </p>
                 </div>
               </div>
