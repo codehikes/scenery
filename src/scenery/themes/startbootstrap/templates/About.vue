@@ -12,7 +12,7 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" :src="$scenery.templates.about.image">
+                <img class="rounded-circle img-fluid" src="~$assets/img/about/1.jpg">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">

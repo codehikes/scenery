@@ -38,6 +38,7 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
       '$theme': resolve('src/scenery/themes/' + scenery.theme),
+      '$assets': resolve('src/scenery/themes/' + scenery.theme + '/assets')
     }
   },
   module: {

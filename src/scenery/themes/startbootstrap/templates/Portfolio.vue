@@ -17,7 +17,7 @@
               </div>
             </div>
             <img class="img-fluid"
-              src="~$theme/assets/img/portfolio/01-thumbnail.jpg" alt="">
+              src="~$assets/img/portfolio/01-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Threads</h4>
@@ -32,7 +32,7 @@
               </div>
             </div>
             <img class="img-fluid"
-              src="~$theme/assets/img/portfolio/02-thumbnail.jpg" alt="">
+              src="~$assets/img/portfolio/02-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Explore</h4>
@@ -47,7 +47,7 @@
               </div>
             </div>
             <img class="img-fluid"
-              src="~$theme/assets/img/portfolio/03-thumbnail.jpg" alt="">
+              src="~$assets/img/portfolio/03-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Finish</h4>
@@ -62,7 +62,7 @@
               </div>
             </div>
             <img class="img-fluid"
-              src="~$theme/assets/img/portfolio/04-thumbnail.jpg" alt="">
+              src="~$assets/img/portfolio/04-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Lines</h4>
@@ -77,7 +77,7 @@
               </div>
             </div>
             <img class="img-fluid"
-              src="~$theme/assets/img/portfolio/05-thumbnail.jpg" alt="">
+              src="~$assets/img/portfolio/05-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Southwest</h4>
@@ -92,7 +92,7 @@
               </div>
             </div>
             <img class="img-fluid"
-              src="~$theme/assets/img/portfolio/06-thumbnail.jpg" alt="">
+              src="~$assets/img/portfolio/06-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Window</h4>
