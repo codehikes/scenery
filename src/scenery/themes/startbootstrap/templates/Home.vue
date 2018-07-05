@@ -7,7 +7,7 @@
         <div class="intro-heading text-uppercase">{{ $scenery.description }}</div>
         <a
           class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-          href="#services">
+          href="#" v-scroll-to="'#services'">
           Tell Me More
         </a>
       </div>
