@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; {{ $scenery.name }} 2018</span>
+          <span class="copyright">Copyright &copy; {{ $scenery.name }} {{ $scenery.year }}</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">

@@ -12,6 +12,7 @@ module.exports = {
     contact: '021 007007',
     email: 'rori.development@gmail.com',
     menu: menu,
+    year: (new Date()).getFullYear(),
     templates: templates,
     socialMedia: {
       facebook: '#',
