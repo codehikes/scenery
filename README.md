@@ -2,6 +2,10 @@
 
 > Landing page for your portfolio
 
+## Configuration
+
+open `scenery.js` and edit your info there
+
 ## Build Setup
 
 ``` bash
@@ -16,12 +20,8 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## To Do
+- Self diagnosis
+- Create custom theme
